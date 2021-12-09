@@ -6,10 +6,3 @@ RUN Service Blood Bank Managment System
 3. run docker-compose up --build -d
 4. Visit browser on ip address your virtual machines.
 ## Structure directories
-          restrict
-              |
----------------------------------------------------
-   |        |            |                 |
-conternt  nginx         php      docker-compose.yml
-            |            |
-         site.conf  Dockerfile
